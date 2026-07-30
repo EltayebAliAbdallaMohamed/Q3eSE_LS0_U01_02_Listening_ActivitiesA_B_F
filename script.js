@@ -50,7 +50,7 @@ const speakingIndicator = document.getElementById("speakingIndicator");
 // ========== LOAD DATA FROM JSON ==========
 async function loadData() {
   try {
-    const response = await fetch('Q3eSE_RW0_U08_Reading1.json');
+    const response = await fetch('Q3eSE_LS0_U01_02_Listening_ActivitiesA_B_F.json');
     const data = await response.json();
 
     // ── NEW: read title from JSON root ──────────────────────────────
